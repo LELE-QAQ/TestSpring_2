@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="299b21eb-de4f-46c5-966a-0551a47926e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/aop/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/aop/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/c3p0/TestC3p0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/c3p0/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/c3p0/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/transaction/anno/OrderDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/transaction/anno/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/transaction/anno/TestAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/transaction/xml/OrderDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/transaction/xml/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestSpring_2/test/spring/transaction/xml/TestAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/TestSpring_2/MyRowMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/TestSpring_2/TestAOP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/TestSpring_2/TestSql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/spring/transaction/anno/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/spring/transaction/anno/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/spring/transaction/xml/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/spring/transaction/xml/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestSql.java" afterDir="false" />
-    </list>
+    <list default="true" id="299b21eb-de4f-46c5-966a-0551a47926e1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/spring/transaction/anno/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="476">
               <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#227#228#0" expanded="true" />
@@ -94,17 +71,17 @@
       <file leaf-file-name="spring-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="183">
+              <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSql.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestSql.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TestSql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3024">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="295">
+              <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -240,7 +217,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/projects/Javaweb_bookstore/BookStore" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -433,15 +410,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32890365" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32890365" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32447398" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32447398" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info id="Designer" order="5" />
@@ -466,6 +444,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/TestSql.java">
@@ -756,20 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3024">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/spring/transaction/xml/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -779,12 +747,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/spring/transaction/anno/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="476">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#227#228#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
         </state>
       </provider>
     </entry>
