@@ -47,8 +47,6 @@
     </bean>-->
 
 
-
-    <!--xml实现事务管理-->
     <!--配置c3p0连接池-->
     <!--<bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
@@ -91,9 +89,6 @@
     </aop:config>-->
 
 
-
-
-    <!--注解方式实现事务操作-->
     <!--配置c3p0连接池-->
     <bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
@@ -119,6 +114,36 @@
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="datasource"></property>
     </bean>
+
     <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
 
+
+    <!--注解方式实现事务操作-->
+    <!--配置连接池-->
+    <!--<bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///test"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="123"></property>
+    </bean>
+    &lt;!&ndash;创建OrderService和OrderDao对象&ndash;&gt;
+    <bean id="orderDao" class="test.spring.transaction.anno.OrderDao">
+        <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+    </bean>
+    <bean id="orderService" class="test.spring.transaction.anno.OrderService">
+        <property name="orderDao" ref="orderDao"></property>
+    </bean>
+
+    &lt;!&ndash;创建JdbcTemplate对象&ndash;&gt;
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        &lt;!&ndash;传入datasource&ndash;&gt;
+        <property name="dataSource" ref="datasource"></property>
+    </bean>
+    &lt;!&ndash;配置事务管理器&ndash;&gt;
+    <bean id="transactionManager2" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="datasource"></property>
+    </bean>
+    &lt;!&ndash;开启事务注解&ndash;&gt;
+    <tx:annotation-driven transaction-manager="transactionManager2"></tx:annotation-driven>
+-->
 </beans>

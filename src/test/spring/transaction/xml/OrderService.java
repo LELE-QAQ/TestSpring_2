@@ -1,5 +1,8 @@
 package test.spring.transaction.xml;
 
+import org.springframework.transaction.annotation.Transactional;
+
+@Transactional
 public class OrderService {
     private  OrderDao orderDao;
 

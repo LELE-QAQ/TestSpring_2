@@ -12,7 +12,7 @@ public class OrderService {
 
     public void account() {
         orderDao.lessMoney();
-        int i=1/0;
+        //int i = 1/0;
         orderDao.addMoney();
     }
 }

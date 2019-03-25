@@ -14,12 +14,15 @@ public class TestSql {
     /*添加*/
     @Test
     public void fun1() {
+
+        //设置数据库信息
         DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
         driverManagerDataSource.setDriverClassName("com.mysql.jdbc.Driver");
         driverManagerDataSource.setUrl("jdbc:mysql:///test");
         driverManagerDataSource.setUsername("root");
         driverManagerDataSource.setPassword("123");
-        //System.out.println(driverManagerDataSource);
+
+        //创建jdbcTemplate对象，设置数据源
         JdbcTemplate jdbcTemplate = new JdbcTemplate(driverManagerDataSource);
         String sql = "insert into stu values(?,?,?)";
         Object[] params = {22, "bob", 40};
@@ -149,7 +152,7 @@ public class TestSql {
 class MyRowMapper implements RowMapper<User> {
 
     @Override
-    public User mapRow(ResultSet resultSet, int i) throws SQLException {
+    public User mapRow(ResultSet resultSet , int i) throws SQLException {
         String id = resultSet.getString("id");
         String name = resultSet.getString("name");
         String age = resultSet.getString("age");
@@ -159,4 +162,5 @@ class MyRowMapper implements RowMapper<User> {
         user.setAge(age);
         return user;
     }
+
 }
